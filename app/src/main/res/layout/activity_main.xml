@@ -13,8 +13,7 @@
             android:id="@+id/btnDisplay"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/display"
-            android:layout_weight="2"/>
+            android:text="@string/display" />
 
 
         <EditText
@@ -23,8 +22,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:hint="@string/enter_something"
-            android:layout_weight="8"/>
+            android:hint="@string/enter_something"/>
 
     </LinearLayout>
 
@@ -33,6 +31,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/display_what_the_user_enters" />
+
+    <RadioGroup
+        android:id="@+id/rgGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonGenderMale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:id="@+id/radioButtonGenderFemale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/female" />
+    </RadioGroup>
 
     <ToggleButton
         android:id="@+id/toggleButtonEnabled"
